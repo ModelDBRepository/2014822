@@ -1,0 +1,357 @@
+runs:
+  control:
+    neuron_parameters:
+      nr2bmult: 1.0
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  control08:
+    neuron_parameters:
+      nr2bmult: 0.8
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  control06:
+    neuron_parameters:
+      nr2bmult: 0.6
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  control04:
+    neuron_parameters:
+      nr2bmult: 0.4
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  control02:
+    neuron_parameters:
+      nr2bmult: 0.2
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  control00:
+    neuron_parameters:
+      nr2bmult: 0.0
+    alzheimers:
+    - 0.0
+    - 0.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+
+
+  beta10:
+    neuron_parameters:
+      nr2bmult: 1.0
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 1.0
+    - 6.5e-2
+  beta08:
+    neuron_parameters:
+      nr2bmult: 0.8
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.8
+    - 6.5e-2
+  beta06:
+    neuron_parameters:
+      nr2bmult: 0.6
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.6
+    - 6.5e-2
+  beta04:
+    neuron_parameters:
+      nr2bmult: 0.4
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.4
+    - 6.5e-2
+  beta02:
+    neuron_parameters:
+      nr2bmult: 0.2
+    alzheimers:
+    - 0.0
+    - 1.0
+    beta_amyloid:
+    - 0.2
+    - 6.5e-2
+
+  aicd40:
+    neuron_parameters:
+      nr2bmult: 1.0
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd30:
+    neuron_parameters:
+      nr2bmult: 0.75
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd20:
+    neuron_parameters:
+      nr2bmult: 0.5
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd10:
+    neuron_parameters:
+      nr2bmult: 0.25
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd08:
+    neuron_parameters:
+      nr2bmult: 0.2
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd06:
+    neuron_parameters:
+      nr2bmult: 0.15
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd04:
+    neuron_parameters:
+      nr2bmult: 0.1
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd02:
+    neuron_parameters:
+      nr2bmult: 0.05
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+  aicd00:
+    neuron_parameters:
+      nr2bmult: 0.0
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.0
+    - 1.0
+
+  aicdbeta10:
+    neuron_parameters:
+      nr2bmult: 1.0
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 1.0
+    - 6.5e-2
+  aicdbeta08:
+    neuron_parameters:
+      nr2bmult: 0.24
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.8
+    - 6.5e-2
+  aicdbeta06:
+    neuron_parameters:
+      nr2bmult: 0.18
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.6
+    - 6.5e-2
+  aicdbeta04:
+    neuron_parameters:
+      nr2bmult: 0.12
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.4
+    - 6.5e-2
+  aicdbeta02:
+    neuron_parameters:
+      nr2bmult: 0.06
+    alzheimers:
+    - 1.0
+    - 4.0
+    beta_amyloid:
+    - 0.2
+    - 6.5e-2
+
+labels:
+  epsp:
+  - Control
+  - AICD
+  - AICD restored
+  - Aβ
+  - Aβ restored
+  - AICD & Aβ
+  - AICD & Aβ restored
+  hist:
+  - Control
+  - AICD
+  - Aβ
+  - AICD & Aβ
+  histr:
+  - AICD restored
+  - Aβ restored
+  - AICD & Aβ restored
+  nr2baicd:
+  - 100%
+  - 80%
+  - 60%
+  - 40%
+  - 20%
+  nr2bbeta:
+  - 100%
+  - 80%
+  - 60%
+  - 40%
+  - 20%
+  nr2baicdbeta:
+  - 100%
+  - 80%
+  - 60%
+  - 40%
+  - 20%
+
+titles:
+  epsp: "EPSP"
+  hist: "Histogram"
+  histr: "Histogram restored"
+  nr2baicd: "AICD"
+  nr2baicdbeta: "AICD & Aβ"
+  nr2bbeta: "Aβ"
+
+datanames:
+  hist:
+  - control
+  - aicd40
+  - beta10
+  - aicdbeta10
+  histr:
+  - aicd10
+  - beta06
+  - aicdbeta06
+  epsp:
+  - control
+  - aicd40
+  - aicd10
+  - beta10
+  - beta06
+  - aicdbeta10
+  - aicdbeta06
+  nr2baicd:
+  - control
+  - control08
+  - control06
+  - control04
+  - control02
+  - aicd40
+  - aicd20
+  - aicd10
+  - aicd06
+  - aicd02
+  nr2bbeta:
+  - control
+  - control08
+  - control06
+  - control04
+  - control02
+  - beta10
+  - beta08
+  - beta06
+  - beta04
+  - beta02
+  nr2baicdbeta:
+  - control
+  - control08
+  - control06
+  - control04
+  - control02
+  - aicdbeta10
+  - aicdbeta08
+  - aicdbeta06
+  - aicdbeta04
+  - aicdbeta02
+
+
+colors:
+  epsp:
+  - [85, 85, 85]
+  - [127, 0, 0]
+  - [255, 178, 178]
+  - [0, 0, 127]
+  - [178, 178, 255]
+  - [127, 0, 127]
+  - [255, 178, 255]
+  hist:
+  - [0, 50, 50]
+  - [27, 207, 211]
+  - [238, 17, 82]
+  - [238, 173, 17]
+  histr:
+  - [0, 50, 50]
+  - [27, 207, 211]
+  - [238, 17, 82]
+  - [238, 173, 17]
+  nr2baicd:
+  - [85, 85, 85]
+  - [127, 0, 0] 
+  nr2bbeta:
+  - [85, 85, 85]
+  - [0, 0, 127]
+  nr2baicdbeta:
+  - [85, 85, 85]
+  - [127, 0, 127]
